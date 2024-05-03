@@ -9,8 +9,8 @@ import time
 # timestamp 설정
 timestamp = str(int(time.time() * 1000))
 
-access_key = "C012A25AA319066052E1"
-secret_key = "CD4225BCE6E74A0268D70EAD8E7BA8E7374448A5"
+access_key = ""
+secret_key = ""
 #secret_Key = bytes(secret_key, 'UTF-8')
 
 api_server = "https://ncloud.apigw.ntruss.com"
