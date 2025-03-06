@@ -13,8 +13,8 @@ get_method = "GET"
 post_method = "POST"
 date = datetime.today()
 today = date.strftime('%y%m%d')
-bot_token = "6994882583:AAF3twS6sL6mJ5qygv3o"
-chat_id = "-1002073425700"
+bot_token = ""
+chat_id = ""
 
 url = "https://ncloud.apigw.gov-ntruss.com"
 info_blockstorage_url = "/vserver/v2/getBlockStorageSnapshotInstanceList"
@@ -27,8 +27,8 @@ delete_snapshot_url = "/vserver/v2/deleteBlockStorageSnapshotInstances"
 exclude_ids = ["100619351", "100619357", "100619360", "100619361", "101027601", "101027600", "101027599", "101027598", "101027597", "101027596", "101027595", "101027594", "101027593", "101027592", "101027591", "101027590"]
 
 def get_header(input_url, method):
-    access_key = "ncp_iam_BGASKR2ycyuf1qNQvINo"				# access key id (from portal or Sub Account)
-    secret_key = "ncp_iam_BGKSKRX80wVS19bsXciXCvwZ4WFaAvtkzV"				# secret key (from portal or Sub Account)
+    access_key = ""				# access key id (from portal or Sub Account)
+    secret_key = ""				# secret key (from portal or Sub Account)
     secret_key = bytes(secret_key, 'UTF-8')
 
     message = method + " " + input_url + "\n" + timestamp + "\n" + access_key
