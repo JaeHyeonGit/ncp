@@ -24,7 +24,7 @@ get_blockstorage_detail_url = "/vserver/v2/getBlockStorageInstanceDetail"
 delete_snapshot_url = "/vserver/v2/deleteBlockStorageSnapshotInstances"
 
 # 삭제되면 안 되는 이미지 목록 (exclude_ids)
-exclude_ids = ["100619351", "100619357", "100619360", "100619361", "101027601", "101027600", "101027599", "101027598", "101027597", "101027596", "101027595", "101027594", "101027593", "101027592", "101027591", "101027590"]
+exclude_ids = ["000000000"]
 
 def get_header(input_url, method):
     access_key = ""				# access key id (from portal or Sub Account)
